@@ -1,0 +1,40 @@
+.navbar{
+    border: 3px solid purple;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: blueviolet;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.menu{
+    list-style: none;
+    color: white;
+    gap: 15px;
+    display: flex;
+    background-color: blueviolet;
+    font-size: larger;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 2rem;
+    
+}
+
+.cards{
+    display:flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #f0f0f0;
+    padding: 30px;
+    flex: 1 1 200px;
+    text-align: center;
+}
